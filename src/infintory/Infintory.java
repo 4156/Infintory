@@ -1,20 +1,28 @@
 package infintory;
 
-import arc.*;
-import arc.util.*;
-import mindustry.game.EventType.*;
+import infintory.contents.Blocks;
+import infintory.contents.Items;
+import infintory.contents.Recipes;
+import infintory.contents.Researches;
+import infintory.types.logic.Recipe;
 import mindustry.mod.*;
-import mindustry.ui.dialogs.*;
 
 public class Infintory extends Mod{
+    public static Items items;
+    public static Blocks blocks;
+    public static Recipes recipes;
 
     public Infintory(){
-
+        items=new Items();
+        blocks=new Blocks();
+        recipes=new Recipes();
     }
 
     @Override
-    public void loadContent(){
-		Log.info("Loading some example content.");
-    }
+    public void loadContent() {
+        items.load();
+        recipes.load();
+        blocks.load();
 
+    }
 }
