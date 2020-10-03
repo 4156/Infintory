@@ -1,36 +1,15 @@
 package infintory.types.block;
 
-import arc.Core;
-import arc.func.Floatp;
-import arc.func.Func;
-import arc.func.Prov;
 import arc.graphics.Color;
-import arc.scene.style.BaseDrawable;
-import arc.scene.style.Drawable;
-import arc.scene.style.TextureRegionDrawable;
-import arc.scene.ui.ImageButton;
-import arc.scene.ui.ProgressBar;
 import arc.scene.ui.ScrollPane;
 import arc.scene.ui.layout.Table;
-import arc.util.Strings;
-import arc.util.Time;
 import arc.util.io.Reads;
 import arc.util.io.Writes;
-import infintory.Infintory;
-import infintory.contents.Researches;
 import infintory.types.logic.TechNode;
-import mindustry.Vars;
 import mindustry.content.Items;
-import mindustry.ctype.ContentType;
 import mindustry.gen.Icon;
-import mindustry.graphics.Pal;
-import mindustry.type.ItemStack;
 import mindustry.ui.Bar;
-import mindustry.ui.Cicon;
-import mindustry.ui.IconSize;
-import mindustry.ui.Styles;
 import mindustry.ui.dialogs.BaseDialog;
-import mindustry.world.blocks.power.PowerGenerator;
 import mindustry.world.blocks.storage.StorageBlock;
 
 

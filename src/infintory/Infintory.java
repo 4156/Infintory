@@ -3,8 +3,6 @@ package infintory;
 import infintory.contents.Blocks;
 import infintory.contents.Items;
 import infintory.contents.Recipes;
-import infintory.contents.Researches;
-import infintory.types.logic.Recipe;
 import mindustry.mod.*;
 
 public class Infintory extends Mod{
